@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Deniz Umut Dereli",
+      "dep": "CTO",
+      "maas": "5000"
+    },
+    {
+      "id": "2",
+      "name": "Tansu Camcı",
+      "dep": "HR",
+      "maas": "4000"
+    },
+    {
+      "id": "3",
+      "name": "Nizamettin Başıbüyük",
+      "dep": "Denyo",
+      "maas": "2000"
+    }
+  ]
+}

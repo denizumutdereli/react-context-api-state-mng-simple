@@ -1,4 +1,6 @@
 import './App.css';
+import React, { Component }  from 'react';
+
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Users from './components/Users';

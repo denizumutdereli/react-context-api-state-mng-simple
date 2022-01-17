@@ -1,4 +1,4 @@
-import React, { Component, useDebugValue } from "react";
+import React, { Component } from "react";
 import PropTypes from "prop-types";
 import UserConsumer from "../context";
 
