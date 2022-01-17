@@ -38,7 +38,7 @@ class User extends Component {
 
           return (
             <div className="col-md-8 mb-4">
-              <div className="card">
+              <div className="card" style={ isVisible ? {backgroundColor: '#ccc'} : null}>
                 <div className="card-header d-flex justify-content-between">
                   <h4 className="d-inline" onClick={this.onClickEvent}>
                     {name}
@@ -67,6 +67,7 @@ class User extends Component {
   }
 }
 User.propTypes = {
+  id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
 };
 export default User;
